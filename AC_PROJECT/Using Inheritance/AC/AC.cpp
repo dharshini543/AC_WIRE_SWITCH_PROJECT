@@ -11,6 +11,22 @@ AC::AC(int ACnum, float length, float width, string Brand, string colour)
     m_colour = colour;
 }
 
+void AC::setWire(Wire* wire)
+{
+    m_wire = wire;
+    m_wire->setAC(this);
+}
+
+void AC::turnONAC()
+{
+    cout<<"AC is ON"<<endl;
+}
+
+void AC::turnOFFAC()
+{
+    cout<<"AC is OFF"<<endl;
+}
+
 AC::~AC()
 {
     cout<<"AC Destructor"<<endl;
