@@ -1,0 +1,8 @@
+# ninja log v6
+5	519	7621768895630763	CMakeFiles/WithoutUsingInheritance.dir/AC.cpp.obj	d8384146ee1af41a
+0	533	7621768895619321	CMakeFiles/WithoutUsingInheritance.dir/main.cpp.obj	9af95fbf9997457e
+9	540	7621768895630763	CMakeFiles/WithoutUsingInheritance.dir/Polycab_wire.cpp.obj	ddeea8091582db80
+7	541	7621768895630763	CMakeFiles/WithoutUsingInheritance.dir/Switch.cpp.obj	fdf84c2ac2cf0475
+14	565	7621768895630763	CMakeFiles/WithoutUsingInheritance.dir/Havels_wire.cpp.obj	bbdf81d79aa92206
+12	567	7621768895630763	CMakeFiles/WithoutUsingInheritance.dir/Finolex_wire.cpp.obj	f433635ffe55f714
+567	649	7621768901290114	WithoutUsingInheritance.exe	37498a2c0e9b54bd
