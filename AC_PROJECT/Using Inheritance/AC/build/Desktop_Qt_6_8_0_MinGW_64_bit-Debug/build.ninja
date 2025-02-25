@@ -73,6 +73,24 @@ build CMakeFiles/AC.dir/Wire.cpp.obj: CXX_COMPILER__AC_unscanned_Debug C$:/C++/A
   OBJECT_DIR = CMakeFiles\AC.dir
   OBJECT_FILE_DIR = CMakeFiles\AC.dir
 
+build CMakeFiles/AC.dir/Finolex_wire.cpp.obj: CXX_COMPILER__AC_unscanned_Debug C$:/C++/AC_SWITCH/AC_PROJECT/Using$ Inheritance/AC/Finolex_wire.cpp || cmake_object_order_depends_target_AC
+  DEP_FILE = CMakeFiles\AC.dir\Finolex_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC.dir
+
+build CMakeFiles/AC.dir/Polycab_wire.cpp.obj: CXX_COMPILER__AC_unscanned_Debug C$:/C++/AC_SWITCH/AC_PROJECT/Using$ Inheritance/AC/Polycab_wire.cpp || cmake_object_order_depends_target_AC
+  DEP_FILE = CMakeFiles\AC.dir\Polycab_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC.dir
+
+build CMakeFiles/AC.dir/Havels_wire.cpp.obj: CXX_COMPILER__AC_unscanned_Debug C$:/C++/AC_SWITCH/AC_PROJECT/Using$ Inheritance/AC/Havels_wire.cpp || cmake_object_order_depends_target_AC
+  DEP_FILE = CMakeFiles\AC.dir\Havels_wire.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AC.dir
+  OBJECT_FILE_DIR = CMakeFiles\AC.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AC
@@ -81,7 +99,7 @@ build CMakeFiles/AC.dir/Wire.cpp.obj: CXX_COMPILER__AC_unscanned_Debug C$:/C++/A
 #############################################
 # Link the executable AC.exe
 
-build AC.exe: CXX_EXECUTABLE_LINKER__AC_Debug CMakeFiles/AC.dir/main.cpp.obj CMakeFiles/AC.dir/AC.cpp.obj CMakeFiles/AC.dir/Switch.cpp.obj CMakeFiles/AC.dir/Wire.cpp.obj
+build AC.exe: CXX_EXECUTABLE_LINKER__AC_Debug CMakeFiles/AC.dir/main.cpp.obj CMakeFiles/AC.dir/AC.cpp.obj CMakeFiles/AC.dir/Switch.cpp.obj CMakeFiles/AC.dir/Wire.cpp.obj CMakeFiles/AC.dir/Finolex_wire.cpp.obj CMakeFiles/AC.dir/Polycab_wire.cpp.obj CMakeFiles/AC.dir/Havels_wire.cpp.obj
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AC.dir

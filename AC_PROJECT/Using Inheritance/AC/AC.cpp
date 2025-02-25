@@ -1,33 +1,46 @@
 #include "AC.h"
 #include<iostream>
 
-AC::AC(int ACnum, float length, float width, string Brand, string colour)
+AC::AC(int ACnum, string Brand, string colour)
 {
-    cout<<"AC Constructor"<<endl;
+    cout<< "AC constructor"<<endl;
     m_ACnum = ACnum;
-    m_length = length;
-    m_width = width;
     m_Brand = Brand;
     m_colour = colour;
 }
 
-void AC::setWire(Wire* wire)
+void AC::setWire(Wire* w)
 {
-    m_wire = wire;
-    m_wire->setAC(this);
-}
-
-void AC::turnONAC()
-{
-    cout<<"AC is ON"<<endl;
-}
-
-void AC::turnOFFAC()
-{
-    cout<<"AC is OFF"<<endl;
+    m_wire = w;
+    w->setAC(this);
 }
 
 AC::~AC()
 {
-    cout<<"AC Destructor"<<endl;
+    cout<< "AC Destructor"<<endl;
+}
+
+void AC::turnOnAC()
+{
+    m_isACOn= true;
+    cout<<"AC is turned ON"<<endl<<endl;
+}
+
+void AC::turnOffAC()
+{
+    m_isACOn = false;
+    cout<<"AC is turned OFF"<<endl<<endl;
+}
+
+void AC::displayACdetails()
+{
+    if(m_isACOn)
+    {
+        cout<< "ACnum : " << m_ACnum << " is On"<<endl<<endl;
+    }
+    else
+    {
+        cout<< "ACnum : " << m_ACnum << " is OFF"<<endl<<endl;
+    }
+
 }

@@ -7,20 +7,19 @@ using namespace std;
 class AC
 {
 private:
-    int   m_ACnum;
-    float m_length;
-    float m_width;
+    int m_ACnum;
     string m_Brand;
     string m_colour;
-    bool m_isOn;
+    bool m_isACOn;
     Wire* m_wire;
 
 public:
-    AC(int ACnum, float length, float width,  string Brand, string colour);
-    void setWire(Wire* wire);
-    void turnONAC();
-    void turnOFFAC();
+    AC(int ACnum, string Brand, string colour);
+    void displayACdetails();
+    void turnOnAC();
+    void turnOffAC();
+    void setWire(Wire* w);
     ~AC();
 };
 
-#endif // AC_H
+#endif // ACUNIT_H

@@ -1,11 +1,14 @@
 # ninja log v6
-1	271	7621724721478506	CMakeFiles/AC.dir/main.cpp.obj	2f66b409dfcd9ea1
-5	305	7621724721478506	CMakeFiles/AC.dir/Switch.cpp.obj	bcd06d9a0ec666eb
-8	332	7621724721478506	CMakeFiles/AC.dir/Wire.cpp.obj	37bd26b6dcfca5fa
-3	336	7621724721478506	CMakeFiles/AC.dir/AC.cpp.obj	fa8fb008b5b23d2d
-336	427	7621724724869907	AC.exe	e3726878ee23e2e5
 3	206	7621756137076267	CMakeFiles/AC.dir/main.cpp.obj	2f66b409dfcd9ea1
 9	255	7621756137076267	CMakeFiles/AC.dir/Switch.cpp.obj	bcd06d9a0ec666eb
 12	267	7621756137076267	CMakeFiles/AC.dir/Wire.cpp.obj	37bd26b6dcfca5fa
 5	267	7621756137076267	CMakeFiles/AC.dir/AC.cpp.obj	fa8fb008b5b23d2d
 267	336	7621756139769853	AC.exe	e3726878ee23e2e5
+39	680	7621760826238578	CMakeFiles/AC.dir/Havels_wire.cpp.obj	afb151b3c370c61c
+31	696	7621760826158577	CMakeFiles/AC.dir/Finolex_wire.cpp.obj	9b6fdf49f79a9bb0
+17	700	7621760826025574	CMakeFiles/AC.dir/main.cpp.obj	2f66b409dfcd9ea1
+27	721	7621760826124636	CMakeFiles/AC.dir/Wire.cpp.obj	37bd26b6dcfca5fa
+24	722	7621760826102343	CMakeFiles/AC.dir/Switch.cpp.obj	bcd06d9a0ec666eb
+34	738	7621760826198579	CMakeFiles/AC.dir/Polycab_wire.cpp.obj	1ec4ebc6530436ff
+21	762	7621760826066936	CMakeFiles/AC.dir/AC.cpp.obj	fa8fb008b5b23d2d
+762	857	7621760833441127	AC.exe	9adca6ffb5210efd

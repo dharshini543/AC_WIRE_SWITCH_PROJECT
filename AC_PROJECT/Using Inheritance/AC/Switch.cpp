@@ -1,36 +1,48 @@
 #include "Switch.h"
 #include<iostream>
 
-Switch::Switch(int switchNo, float length, float width, float price, string brand, string colour)
+Switch::Switch(int switchNo, string brand, string colour)
 {
-    cout<<"Switch Constructor"<<endl;
-    m_switchno = switchNo;
-    m_length = length;
-    m_width = width;
-    m_price = price;
+    cout<< "Switch constructor"<<endl;
+    m_switchNo = switchNo;
     m_brand = brand;
     m_colour = colour;
 }
 
-void Switch::setWire(Wire* wire)
+void Switch::setWire(Wire* w)
 {
-    m_wire = wire;
-}
-
-void Switch::turnONSwitch()
-{
-    cout<<"Switch is ON"<<endl;
-    m_wire->turnONWire();
-}
-
-void Switch::turnOFFSwitch()
-{
-    cout<<"Switch is OFF"<<endl;
-    m_wire->turnOFFWire();
-
+    m_wire = w;
 }
 
 Switch::~Switch()
 {
-    cout<<"Switch Destructor"<<endl;
+    cout<< "Switch Destructor"<<endl;
+}
+
+void Switch::turnOnSwitch()
+{
+    m_isSwitchOn = true;
+    cout<<"Switch is turned On"<<endl;
+    m_wire->turnOnWire();
+
+}
+void Switch::turnOffSwitch()
+{
+    m_isSwitchOn = false;
+    cout<<"Switch is turned OFF"<<endl;
+    m_wire->turnOffWire();
+
+}
+
+void Switch::displaySwitchDetails()
+{
+    cout << endl;
+    if(m_isSwitchOn)
+    {
+        cout << "SwitchNo : " << m_switchNo <<" is On"<< endl;
+    }
+    else
+    {
+        cout << "SwitchNo : " << m_switchNo <<" is OFF"<< endl;
+    }
 }
