@@ -1,0 +1,6 @@
+# ninja log v6
+1	271	7621724721478506	CMakeFiles/AC.dir/main.cpp.obj	2f66b409dfcd9ea1
+5	305	7621724721478506	CMakeFiles/AC.dir/Switch.cpp.obj	bcd06d9a0ec666eb
+8	332	7621724721478506	CMakeFiles/AC.dir/Wire.cpp.obj	37bd26b6dcfca5fa
+3	336	7621724721478506	CMakeFiles/AC.dir/AC.cpp.obj	fa8fb008b5b23d2d
+336	427	7621724724869907	AC.exe	e3726878ee23e2e5
