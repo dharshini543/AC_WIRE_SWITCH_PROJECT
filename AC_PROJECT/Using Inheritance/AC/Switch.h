@@ -1,5 +1,6 @@
 #ifndef SWITCH_H
 #define SWITCH_H
+#include "Wire.h"
 #include <string>
 using namespace std;
 
@@ -12,9 +13,13 @@ private:
     float m_price;
     string m_brand;
     string m_colour;
+    Wire* m_wire;
 
 public:
     Switch(int switchNo, float length, float width, float price, string brand, string colour);
+    void setWire(Wire* wire);
+    void turnONSwitch();
+    void turnOFFSwitch();
     ~Switch();
 };
 
